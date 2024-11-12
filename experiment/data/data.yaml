@@ -1,0 +1,3 @@
+class_path: tree_height.data.datamodule.TFRecordDataModule
+init_args:
+  root_path: "/mnt/disk/xials/code/tree_height/dataset"

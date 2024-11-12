@@ -1,0 +1,14 @@
+seed_everything: 0
+
+data: ../data/data.yaml
+
+model: ../model/mini.yaml
+
+trainer: ../trainer/trainer.yaml
+
+
+used_ckpt_for_predict: "best"
+
+wandb_logger:
+  project: tree_height
+  name: mini

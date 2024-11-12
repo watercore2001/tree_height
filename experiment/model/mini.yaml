@@ -1,0 +1,13 @@
+class_path: tree_height.train.module.TreeHeightModule
+init_args:
+  model:
+    class_path: tree_height.models.mini.MiniModel
+    init_args:
+      in_feature: 8
+  optim_args:
+    weight_decay: 0.05
+    warmup_epochs: 10
+    annealing_epochs: 90
+    max_lr: 1e-3
+    min_lr: 1e-4
+  save_path: "/mnt/disk/xials/code/tree_height/dataset/output"
